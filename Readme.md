@@ -15,3 +15,7 @@ For monitoring and observability, AWS CloudWatch is employed to track resource p
 From a security perspective, the architecture incorporates IAM for role-based access control, KMS for encryption key management, and AWS Shield for DDoS protection. Compliance and auditing are enforced via AWS CloudTrail.
 
 To ensure business continuity, the architecture utilizes AWS Elastic Disaster Recovery (EDR), enabling failover to a secondary region in the event of primary region failure. The system is designed for resilience, with multiple redundancies in place to safeguard application availability and data integrity.
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
